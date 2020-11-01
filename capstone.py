@@ -1,8 +1,5 @@
-import folium 
-
-
 def show_toronto_map(topright, topleft, bottomleft, bottomrigth):
-
+    import folium 
     boundaries = [  
         topright, 
         topleft,
@@ -24,7 +21,4 @@ def show_toronto_map(topright, topleft, bottomleft, bottomrigth):
     folium.PolyLine(boundaries, color="red", weight=2.5, opacity=1).add_to(toronto_map)
 
     return toronto_map
-
-def print_this():
-    return 'qwe'
 
