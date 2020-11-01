@@ -1,5 +1,6 @@
-def show_toronto_map(topright, topleft, bottomleft, bottomrigth):
+def show_toronto_map_1(topright, topleft, bottomleft, bottomrigth):
     import folium 
+    
     boundaries = [  
         topright, 
         topleft,
