@@ -1,15 +1,16 @@
-import folium 
+import folium
 import pyproj
 import numpy as np
 
-class TorontoCircles: 
+class Toronto: 
 
     circle_diameter = None
-
+    latlon_list_for_circles = None  
+    
     def __init__(self, top_right, top_left, bot_left, bot_right):
 
-        self.top_right = top_right 
         self.top_left = top_left
+        self.top_right = top_right 
         self.bot_left = bot_left
         self.bot_right = bot_right
         
@@ -27,7 +28,7 @@ class TorontoCircles:
         self.vertical_line_gradient = -self.top_horizontal_gradient
         self.vertical_line_bias = self.y_1 + self.top_horizontal_gradient*self.x_1 
     
-    def create_toronto_map(self):
+    def display_toronto_map(self):
 
         boundaries = [  
             self.top_right, 
@@ -62,6 +63,10 @@ class TorontoCircles:
         
         return toronto_map
 
+    
+    def display_toronto_postcode(self):
+        pass
+
     @staticmethod
     def lonlat_to_xy(lat, lon):
         proj = pyproj.Proj("+proj=utm +zone=17N, +north +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
@@ -84,7 +89,7 @@ class TorontoCircles:
         vertical_add_y = (distance__from_hor_line**2/(1+self.vertical_line_gradient**2))**0.5
         vertical_add_x = self.vertical_line_gradient*vertical_add_y
 
-        vertical_number_of_elements = int(self.max_vertical_distance//(distance__from_hor_line*2))
+        vertical_number_of_elements = int(self.max_vertical_distance//(distance__from_hor_line))
         horizontal_number_of_elements = int(self.max_horizontal_distance//self.circle_diameter)
         
         xy_coord = []
@@ -98,7 +103,6 @@ class TorontoCircles:
                 for j in range(horizontal_number_of_elements):
                     xy_coord.append((x + j*horizontal_add_x, y + j*horizontal_add_y))
 
-        print(len(xy_coord))
         bot_line_gradient = np.divide( self.y_4 - self.y_3, self.x_4 - self.x_3)
         bot_horizontal_bias = self.y_4 - bot_line_gradient*self.x_4 
 
@@ -113,8 +117,28 @@ class TorontoCircles:
     def get_latlon_data(self):
         xy_filtered = self.get_xy_data()
         latlon_data = [self.xy_to_latlon(x,y) for x, y in xy_filtered]
+
+        self.latlon_list_for_circles = latlon_data
         return latlon_data
 
+
+class FoursquareSearch:
+    pass
+
+
+class GetPostcodeWikiInfo:
+    pass
+
+
+
+
+
+
+
+
+    
+
+       
  
 
     
