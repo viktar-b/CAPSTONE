@@ -3,7 +3,6 @@ import pyproj
 import numpy as np
 import requests
 import pickle
-import pandas as pd 
 
 class Toronto: 
 
@@ -11,7 +10,6 @@ class Toronto:
     latlon_list_for_circles = None  
     
     def __init__(self, top_right, top_left, bot_left, bot_right):
-
         self.top_left = top_left
         self.top_right = top_right 
         self.bot_left = bot_left
@@ -19,7 +17,6 @@ class Toronto:
         
     
     def display_toronto_map(self):
-
         boundaries = [  
             self.top_right, 
             self.top_left, 
@@ -27,9 +24,7 @@ class Toronto:
             self.bot_right,
             self.top_right 
         ]
-
         toronto_map = folium.Map(location=[43.7, -79.4], zoom_start=11)
-        
         toronto_map.choropleth(
             geo_data='Toronto2.geojson',
             fill_color='Yellow', 
@@ -38,9 +33,7 @@ class Toronto:
             line_opacity=0.1,
             reset=True
         )
-
         folium.PolyLine(boundaries, color="red", weight=2.5, opacity=1).add_to(toronto_map)
-
         return toronto_map
 
     def display_circles(self):
@@ -130,25 +123,31 @@ class FoursquareSearch:
     #Obtained from https://developer.foursquare.com/docs/build-with-foursquare/categories/
     venue_category = '4bf58dd8d48988d142941735'
 
-    def __init__(self, latlon_coordinates, radius):
+    def __init__(self, latlon_coordinates, circle_diameter):
         self.latlon_coordinates = latlon_coordinates
-        self.radius = radius
+        self.search_radius = np.sqrt(3)/2*circle_diameter
 
     def get_raw_requests(self):
-        list_of_requests = []
-        with open(f"radius_{self.radius:f0.0}.txt", "wb") as file:  
-            for lat, lon in self.latlon_coordinates:
-                url = f'https://api.foursquare.com/v2/venues/explore?'\
-                                                            f'client_id={self.client_id}'\
-                                                        f'&client_secret={self.client_secret}'\
-                                                        f'&v={self.version}'\
-                                                        f'&ll={lat},{lon}'\
-                                                        f'&categoryId={self.venue_category}'\
-                                                        f'&radius={self.radius}'\
-                                                        f'&limit={self.limit}'
+        go_not = input(f"Number of circles is {len(self.latlon_coordinates)} "
+                        f"and radius is {int(self.search_radius)}. Print 'go' to procceed")
+        if go_not.lower() == 'go':
+            list_of_requests = []
+            with open(f"radius_{int(self.search_radius)}.txt", "wb") as file:  
+                for lat, lon in self.latlon_coordinates:
+                    url = f'https://api.foursquare.com/v2/venues/explore?'\
+                                                f'client_id={self.client_id}'\
+                                                f'&client_secret={self.client_secret}'\
+                                                f'&v={self.version}'\
+                                                f'&ll={lat},{lon}'\
+                                                f'&categoryId={self.venue_category}'\
+                                                f'&radius={self.search_radius}'\
+                                                f'&limit={self.limit}'
 
-                list_of_requests.append(requests.get(url).json())
-            pickle.dump(list_of_requests, file)
+                    list_of_requests.append(requests.get(url).json())
+                pickle.dump(list_of_requests, file)
+                print("Done")
+        else:
+            return print('Request was terminated')
 
     # def get_info(self):
     #     loaded = False
@@ -253,7 +252,8 @@ class FoursquareSearch:
     def get_categories(categories):
         return [(cat['name'], cat['id']) for cat in categories]
 
-
+    def requestlist_to_dataframe(self, list):
+        pass
 
 
 class GetPostcodeWikiInfo:
@@ -336,11 +336,6 @@ class GetPostcodeWikiInfo:
 
 
 
-
-    
-
-       
- 
 
     
 
