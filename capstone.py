@@ -16,7 +16,7 @@ class Toronto:
         self.bot_right = bot_right
         
     
-    def display_toronto_map(self):
+    def display_toronto_map(self, zoom_start=11, display_boundaries=True):
         boundaries = [  
             self.top_right, 
             self.top_left, 
@@ -24,21 +24,21 @@ class Toronto:
             self.bot_right,
             self.top_right 
         ]
-        toronto_map = folium.Map(location=[43.7, -79.4], zoom_start=11)
-        toronto_map.choropleth(
-            geo_data='Toronto2.geojson',
-            fill_color='Yellow', 
-            line_color='Red',
-            fill_opacity=0.9, 
-            line_opacity=0.1,
-            reset=True
-        )
+        toronto_map = folium.Map(location=[43.7, -79.4], zoom_start=zoom_start)
+        if display_boundaries:
+            toronto_map.choropleth(
+                geo_data='Toronto2.geojson',
+                fill_color='Yellow', 
+                line_color='Red',
+                fill_opacity=0.9, 
+                line_opacity=0.1,
+                reset=True
+            )
         folium.PolyLine(boundaries, color="red", weight=2.5, opacity=1).add_to(toronto_map)
         return toronto_map
 
-    def display_circles(self):
-        toronto_map = folium.Map(location=[43.7, -79.4], zoom_start=10)
-        latlon_data = self.get_latlon_data()
+    def display_circles(self, latlon_data, zoom_start=10):
+        toronto_map = folium.Map(location=[43.7, -79.4], zoom_start=zoom_start)
         for lat, lon in latlon_data:
             folium.Circle([lat, lon], radius= self.circle_diameter/2, color='blue', fill=False).add_to(toronto_map)
         return toronto_map
