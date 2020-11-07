@@ -173,7 +173,7 @@ class FoursquareSearch:
 
         restaurants_df.postcode = list_postcodes
         restaurants_df = restaurants_df.drop_duplicates(subset='venueID')
-        restaurants_df = restaurants_df.reset_index()
+        restaurants_df = restaurants_df.reset_index(drop=True)
         return restaurants_df
 
 
