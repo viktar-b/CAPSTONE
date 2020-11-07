@@ -1,6 +1,7 @@
 import folium
 import pyproj
 import numpy as np
+import pandas as pd 
 import requests
 import pickle
 
@@ -149,115 +150,38 @@ class FoursquareSearch:
         else:
             return print('Request was terminated')
 
-    # def get_info(self):
-    #     loaded = False
-    #     try:
-    #         restaurants = pd.read_csv('restaurants.csv')
-    #         chinese_restaurants = pd.read_csv('restaurants.csv')
-    #         location_restaurants = pd.read_csv('restaurants.csv')
-    #         print('Restaurant data loaded from existing csv files.')
-    #         loaded = True
-    #     except:
-         
-    #         # restaurants, chinese_restaurants, location_restaurants = self.get_restaurants(self.latitudes, self.longitudes)    
-    #         # # Let's persists this in local file system
-            
-    #         # with open('chinese_restaurants.csv', 'wb') as f:
-    #         #     pickle.dump(chinese_restaurants, f)
-    #         # with open('location_restaurants.csv', 'wb') as f:
-    #         #     pickle.dump(location_restaurants, f)
-        
-    #     return restaurants, chinese_restaurants, location_restaurants
-    
-    def get_restaurants(self,lats, lons):
-        restaurants = {}
-        chinese_restaurants = {}
-        location_restaurants = []
-
-        print('Obtaining venues around candidate locations:', end='')
-        for lat, lon in zip(lats, lons):
-            #Using radius=350 to meke sure we have overlaps/full coverage so we don't miss any restaurant
-            #(we're using dictionaries to remove any duplicates resulting from area overlaps)
-            venues = self.get_venues_near_location(
-                lat, 
-                lon, 
-                self.food_category, 
-                self.foursquare_client_id, 
-                self.foursquare_client_secret, 
-                radius= self.radius, 
-                limit=100
-            )
-            area_restaurants = []
-            for venue in venues:
-                venue_id = venue[0]
-                venue_name = venue[1]
-                venue_categories = venue[2]
-                venue_latlon = venue[3]
-                venue_address = venue[4]
-                venue_distance = venue[5]
-                is_res, is_italian = self.is_restaurant(venue_categories, specific_filter=self.chinese_restaurant_categories)
-                if is_res:
-                    x, y = Toronto.lonlat_to_xy(venue_latlon[1], venue_latlon[0])
-                    restaurant = (venue_id, venue_name, venue_latlon[0], venue_latlon[1], venue_address, venue_distance, is_italian, x, y)
-                    if venue_distance<=300:
-                        area_restaurants.append(restaurant)
-                    restaurants[venue_id] = restaurant
-                    if is_italian:
-                        chinese_restaurants[venue_id] = restaurant
-            location_restaurants.append(area_restaurants)
-            print(' .', end='')
-        print(' done.')
-        return restaurants, chinese_restaurants, location_restaurants
-
-    def get_venues_near_location(self, lat, lon, category, client_id, client_secret, radius=500, limit=100):
-        version = '20180724'
-        url = f'https://api.foursquare.com/v2/venues/explore?'\
-                                                f'client_id={client_id}'\
-                                                f'&client_secret={client_secret}'\
-                                                f'&v={version}'\
-                                                f'&ll={lat},{lon}'\
-                                                f'&categoryId={category}'\
-                                                f'&radius={radius}'\
-                                                f'&limit={limit}'
-        try:
-            results = requests.get(url).json()['response']['groups'][0]['items']
-            venues = [(item['venue']['id'],
-                    item['venue']['name'],
-                    self.get_categories(item['venue']['categories']),
-                    (item['venue']['location']['lat'], item['venue']['location']['lng']),
-                    item['venue']['location']['distance']) for item in results]        
-        except:
-            venues = []
-        return venues
-
     @staticmethod
-    def is_restaurant(categories, specific_filter=None):
-        restaurant_words = ['restaurant', 'diner', 'taverna', 'steakhouse']
-        restaurant = False
-        specific = False
-        for c in categories:
-            category_name = c[0].lower()
-            category_id = c[1]
-            for r in restaurant_words:
-                if r in category_name:
-                    restaurant = True
-            if 'fast food' in category_name:
-                restaurant = False
-            if not(specific_filter is None) and (category_id in specific_filter):
-                specific = True
-                restaurant = True
-        return restaurant, specific
+    def requests_to_dataframe(list_of_requests):
+        columns = ['venueID', 'venue_name', 'category_name', 'categoryID', 'address', 'postcode', 'latitude', 'longitude']
+        restaurants_df = pd.DataFrame(columns=columns)
 
-    @staticmethod
-    def get_categories(categories):
-        return [(cat['name'], cat['id']) for cat in categories]
+        restaurants_df.venueID = [x['response']['groups'][0]['items'][0]['venue']['id'] for x in list_of_requests]
+        restaurants_df.venue_name = [x['response']['groups'][0]['items'][0]['venue']['name'] for x in list_of_requests]
+        restaurants_df.category_name = [x['response']['groups'][0]['items'][0]['venue']['categories'][0]['name'] for x in list_of_requests]
+        restaurants_df.categoryID = [x['response']['groups'][0]['items'][0]['venue']['categories'][0]['id'] for x in list_of_requests]
+        restaurants_df.address = ["".join(x['response']['groups'][0]['items'][0]['venue']['location']['formattedAddress']) \
+                                        for x in list_of_requests]
+        restaurants_df.latitude = [x['response']['groups'][0]['items'][0]['venue']['location']['lat'] for x in list_of_requests]
+        restaurants_df.longitude = [x['response']['groups'][0]['items'][0]['venue']['location']['lng'] for x in list_of_requests]
 
-    def requestlist_to_dataframe(self, list):
-        pass
+        list_postcodes = []
+        for x in list_of_requests: 
+            try:
+                list_postcodes.append(x['response']['groups'][0]['items'][0]['venue']['location']['postalCode'])
+            except:
+                list_postcodes.append(np.NaN)
+
+        restaurants_df.postcode = list_postcodes
+        restaurants_df = restaurants_df.drop_duplicates(subset='venueID')
+        restaurants_df = restaurants_df.reset_index()
+        return restaurants_df
+
+
 
 
 class GetPostcodeWikiInfo:
     pass
+
 # url = "https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M"
 # wiki_df = pd.read_html(requests.get(url).text)[0]
 # wiki_df = wiki_df[wiki_df['Borough'] != 'Not assigned']
@@ -293,49 +217,4 @@ class GetPostcodeWikiInfo:
 #             fill_opacity=0.6
 #         )
 #     )
-
-# # add pop-up text to each marker on the map
-# latitudes = list(wiki_df.Latitude)
-# longitudes = list(wiki_df.Longitude)
-# labels = list(wiki_df['Postal Code'])
-
-# for lat, lng, label in zip(latitudes, longitudes, labels):
-#     folium.Marker([lat, lng], popup=label).add_to(toronto_map)    
-    
-# # add incidents to map
-# toronto_map.add_child(postcodes)
-
-
-# def unpack_name_categories(row):
-#     row = eval(row)
-#     if len(row) == 0:
-#         return np.NaN
-#     else:
-#         return row[0]['name'] 
-
-
-
-# #creating a template for final results of SEARCH query 
-# columns = ['VenueID', 'Venue', 'CategoryName', 'CategoryShortName', 'Address', 'PostCode', 'Longitude', 'Lattitude']
-# restaurants_df = pd.DataFrame(columns=columns)
-
-
-
-# #writing a function that extract needed keys and values from categories column 
-# restaurants_df.VenueID = unprocessed_df.id
-# restaurants_df.Venue = unprocessed_df.name
-# restaurants_df.CategoryName = unprocessed_df.apply(lambda x: unpack_name_categories(x.categories), axis=1)
-# restaurants_df.CategoryShortName = unprocessed_df.apply(lambda x: unpack_shortName_categories(x.categories), axis=1)
-# restaurants_df.Address = unprocessed_df.apply(lambda x: unpack_address_location(x.location), axis=1)
-# restaurants_df.PostCode = unprocessed_df.apply(lambda x: unpack_postcode_location(x.location), axis=1)
-# restaurants_df.Longitude = unprocessed_df.apply(lambda x: unpack_lng_location(x.location), axis=1)
-# restaurants_df.Lattitude = unprocessed_df.apply(lambda x: unpack_lat_location(x.location), axis=1)
-
-
-
-
-
-
-
-    
 
