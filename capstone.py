@@ -117,8 +117,8 @@ class FoursquareSearch:
 
     version = '20201102'
     limit = 100
-    client_id = 'ULGA5LTQONIWZ5ULCDROWAYVYJ0ZOI0C35CLVMG12JJAKCFN' 
-    client_secret = 'VMEKZXMMCBO3RWK0IFRKV5KXBABWQ1EQ3J2ACE53UAR5SVWC'
+    client_id = 'ONLLX4H3KJLEWUUWIHSVIZJMIC5AJLIMTN2I53GZ3EXSNIX4' 
+    client_secret = '3W4PO0V4LTGPDTPL0OGDD153G0QYYT2DCWTWU2WXDXZDRQX0'
     
     #"Asian restaurant" category. 
     #Obtained from https://developer.foursquare.com/docs/build-with-foursquare/categories/
@@ -128,7 +128,7 @@ class FoursquareSearch:
         self.latlon_coordinates = latlon_coordinates
         self.search_radius = np.sqrt(3)/2*circle_diameter
 
-    def get_raw_requests(self):
+    def get_explore_requests(self):
         go_not = input(f"Number of circles is {len(self.latlon_coordinates)} "
                         f"and radius is {int(self.search_radius)}. Print 'go' to procceed")
         if go_not.lower() == 'go':
@@ -149,10 +149,28 @@ class FoursquareSearch:
                 print("Done")
         else:
             return print('Request was terminated')
+    
+    @classmethod
+    def get_price_tier(self, list_of_venueID):
+        go_not = input(f"Number of venues is {len(list_of_venueID)}. Print 'go' to request information.")
+        if go_not.lower() == 'go':
+            list_of_request = []
+            for venue_id in list_of_venueID:
+                url = f"https://api.foursquare.com/v2/venues/{venue_id}?"\
+                                        f"client_id={self.client_id}"\
+                                        f"&client_secret={self.client_secret}"\
+                                        f"&v={self.version}"
+
+                list_of_request.append(requests.get(url).json())
+            
+            with open("a5_venues.txt", "wb") as file:
+                pickle.dump(list_of_request, file)
+
+    
 
     @staticmethod
     def requests_to_dataframe(list_of_requests):
-        columns = ['venueID', 'venue_name', 'category_name', 'categoryID', 'address', 'postcode', 'latitude', 'longitude']
+        columns = ['venueID', 'venue_name', 'category_name', 'categoryID', 'address', 'postcode', 'latitude', 'longitude', 'price_tier']
         restaurants_df = pd.DataFrame(columns=columns)
 
         restaurants_df.venueID = [x['response']['groups'][0]['items'][0]['venue']['id'] for x in list_of_requests]
