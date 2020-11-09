@@ -1,0 +1,301 @@
+,venueID,venue_name,category_name,categoryID,address,postcode,latitude,longitude,price_tier
+0,4d9bad1cafc2a1cddad505c2,Red Kaoliang,Chinese Restaurant,4bf58dd8d48988d145941735,2200 martin grove road (Martin grove and royalcrest road)Etobicoke ONCanada,,43.75269893483234,-79.60119923754867,1.0
+1,4e7d0abb29c219fc2a853966,Wok with Yu,Chinese Restaurant,4bf58dd8d48988d145941735,OntarioCanada,,43.76972809823093,-79.55078230669041,1.0
+2,4e80e84130f8844fb2c17742,Steeles Garden Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,3850 Steeles Ave. W (at Weston Rd.)Woodbridge ONCanada,,43.77076952149,-79.5449843720313,1.0
+3,4e06233c62e100e581678192,Tri Star Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,4724 Jane StreetToronto ON M3N 2L2Canada,M3N 2L2,43.76933638194449,-79.52024995897516,1.0
+4,5216459b11d2eea0000d774d,Thai Express,Restaurant,4bf58dd8d48988d1c4941735,"4700 Keele St, York LanesToronto ON M3J 1P3Canada",M3J 1P3,43.773536,-79.501941,2.0
+5,4d502ea0d7eaa143201f650f,Kum Kang San,Asian Restaurant,4bf58dd8d48988d142941735,5050 Dufferin StreetToronto ONCanada,,43.78346,-79.470616,2.0
+6,4b637f5cf964a5207f7e2ae3,Szechuan Gourmet Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,1033 Steeles Ave. W. (at Carpenter Rd.)North York ON M2R 2S9Canada,M2R 2S9,43.79161962015012,-79.44805244066345,4.0
+7,5adce02d4186863834086dfb,Eat Bkk Thai Kitchen & Bar,Thai Restaurant,4bf58dd8d48988d149941735,6307 Yonge St (Athabaska Ave)Toronto ON M2M 3X7Canada,M2M 3X7,43.795696,-79.419205,2.0
+8,4bbfbe9c2a89ef3bbd81ef88,Cho Sun Ok 조선옥 朝鮮屋,Korean Restaurant,4bf58dd8d48988d113941735,7353 Yonge St (at Clark Ave)Markham ON L3T 2B3Canada,L3T 2B3,43.80661423853999,-79.42218603743086,2.0
+9,4da774c81e72d9bb47303980,Helena's,Chinese Restaurant,4bf58dd8d48988d145941735,Canada,,43.805459,-79.385577,1.0
+10,5b634b5f95a722002c977b3e,Sam's Congee Delight 黃三記,Chinese Restaurant,4bf58dd8d48988d145941735,7354 Woodbine Av (at Denison St)Markham ON L3R 1B6Canada,L3R 1B6,43.822392445628076,-79.35110606858746,1.0
+11,4babe7aaf964a520efd33ae3,Asian Legend 味香村,Chinese Restaurant,4bf58dd8d48988d145941735,3636 Steeles Ave. E. #152Markham ONCanada,,43.818845594092124,-79.33105806477963,1.0
+12,58c1e6e801f4336e21f31b50,Yin Ji Chang Fen 銀記腸粉店,Chinese Restaurant,4bf58dd8d48988d145941735,"7010 Warden Ave, Unit 17-18Markham ON L3R 5Y3Canada",L3R 5Y3,43.8202766999062,-79.32514209381554,1.0
+13,53b5f264498e33ae0a1aa90c,Deer Garden Signatures 鹿園魚湯米線,Asian Restaurant,4bf58dd8d48988d142941735,"633 Silver Star Blvd., Unit 125 (btwn Steeles & Passmore)Toronto ON M1V 5N1Canada",M1V 5N1,43.821897657501694,-79.29885716994849,1.0
+14,4b5cd349f964a520ea4529e3,Alton Restaurant 益街坊,Chinese Restaurant,4bf58dd8d48988d145941735,250 Alton Tower Cir. (at Milliken Wells Shopping Centre)Scarborough ON M1V 3Z4Canada,M1V 3Z4,43.82558151136016,-79.27603832875346,1.0
+15,4da8a1fb43a12d0c2656ada3,Nguyen Huong Vietnamese Sandwiches,Sandwich Place,4bf58dd8d48988d1c5941735,5661 Steeles Avenue East (Unit 1) (Middlefield Rd.)Toronto ONCanada,,43.83211981081191,-79.26540304641485,1.0
+16,4c0465d1f423a5937d9fd116,Hong Yu Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,189 Sheppard Ave EastToronto ONCanada,,43.853208,-79.225874,1.0
+17,4cab739da6e08cfa1fd3a594,Hakka No.1,Asian Restaurant,4bf58dd8d48988d142941735,2440 Finch Ave WNorth York ON M9M 2E1Canada,M9M 2E1,43.750245811612785,-79.55202705615771,2.0
+18,4b9fe242f964a520614737e3,Carribean Heat,Caribbean Restaurant,4bf58dd8d48988d144941735,1300 Finch Avenue West (Keele)Toronto ONCanada,,43.764155,-79.490227,2.0
+19,58ba1f446d349d32d862ff70,Daldongnae,Asian Restaurant,4bf58dd8d48988d142941735,6034 Yonge Street (btwn Connaught & Patricia Av)Toronto ON M2M 3W5Canada,M2M 3W5,43.78972879937165,-79.41810431599762,2.0
+20,50c138e4e4b0276c8687f23c,고려삼계탕 Korean Ginseng Chicken Soup & Bibimbap,Korean Restaurant,4bf58dd8d48988d113941735,Toronto ONCanada,,43.798390946011395,-79.36918747196094,2.0
+21,51e047d0498e168af355bf81,O.M.G Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.81061938963684,-79.33876936557287,2.0
+22,4c1b6f35b4e62d7f3951d993,D&R Wings 美華茶餐廳,Asian Restaurant,4bf58dd8d48988d142941735,325 Bamburgh Cir. (at Warden Ave)Toronto ON M1W 3Y1Canada,M1W 3Y1,43.814697995513114,-79.32394552167905,1.0
+23,53123da4498e621ba89e2de1,La Rissa Food Inc,Indonesian Restaurant,4deefc054765f83613cdba6f,3501 McNicoll Ave Unit 2 (Markham Rd & McNicoll Ave)Scarborough ON M1V 2N3Canada,M1V 2N3,43.823198261812614,-79.2508057250727,2.0
+24,4fdb75c0e4b0d1917d92b018,Wok of Asia,Chinese Restaurant,4bf58dd8d48988d145941735,Toronto ONCanada,,43.73415221096142,-79.60577591204354,1.0
+25,4ca8d10976d3a093d6c2196b,Bestco Food Mart,Grocery Store,4bf58dd8d48988d118951735,1701 Martin Grove Rd.Toronto ON M9VCanada,M9V,43.73285792914472,-79.58905851727212,
+26,4bfc6ce0da7120a111134afd,Phoenix Restaurant Chinese Food,Chinese Restaurant,4bf58dd8d48988d145941735,1345 Queen Street West (Dunn Avenue)Toronto ONCanada,,43.7543751219911,-79.52481216423945,1.0
+27,4f0cac7ee4b0f615a3adedb5,Pho Com Viet Nam,Vietnamese Restaurant,4bf58dd8d48988d14a941735,1991 Finch Ave. (at Jane St.)Toronto ON M3N 2V3Canada,M3N 2V3,43.75663119859895,-79.51833633068185,2.0
+28,4c2bdd9ad1a10f471aabf864,Mandarin Buffet,Chinese Restaurant,4bf58dd8d48988d145941735,1027 Finch Ave. W (btwn Champagne & Dufferin)Toronto ON M3J 3L4Canada,M3J 3L4,43.767300457143605,-79.46959723111308,2.0
+29,5529a011498eddb919b0f2f5,Kori Sushi,Japanese Restaurant,4bf58dd8d48988d111941735,3307 Bayview AvenueM2K 1G4Canada,M2K 1G4,43.79161297568961,-79.39226749018948,2.0
+30,4bd396d041b9ef3b799c00e6,Sun Star Chinese Cuisine 翠景小炒,Chinese Restaurant,4bf58dd8d48988d145941735,636 Finch Avenue East (btwn Leslie St and Bayview Av)Toronto ON M2K 2E6Canada,M2K 2E6,43.78791448422642,-79.38123404311649,1.0
+31,4ae66ccbf964a520eba621e3,Congee Wong 天皇名粥,Chinese Restaurant,4bf58dd8d48988d145941735,10 Ravel Rd. (at Finch Ave. E.)Toronto ON M2H 1S8Canada,M2H 1S8,43.79057932101322,-79.3658146139743,1.0
+32,5cc3685135f9830039006a61,Manchu Wok,Chinese Restaurant,4bf58dd8d48988d145941735,"1750 Finch Avenue East, Seneca CollegeToronto ON M2J 2X5Canada",M2J 2X5,43.795746,-79.349987,1.0
+33,4df28ea0e4cda09e6da0129a,Mr Congee Chinese Cuisine 龍粥記,Chinese Restaurant,4bf58dd8d48988d145941735,2900 Warden Ave (at Finch Ave. E)Toronto ON M1W 2S8Canada,M1W 2S8,43.798878792587615,-79.3183345011537,1.0
+34,5aa5a8c85f68b930df32dc53,Fishman Lobster Clubhouse Restaurant 魚樂軒,Chinese Restaurant,4bf58dd8d48988d145941735,4020 Finch Avenue EastToronto ON M1WCanada,M1W,43.801908538084135,-79.29540931957925,1.0
+35,5143eeece4b0315274d027bb,Aberdeen Delicatessen 香港仔美食,Dessert Shop,4bf58dd8d48988d1d0941735,3250 Midland Ave. (Unit G108)Scarborough ON M1V 4A1Canada,M1V 4A1,43.80493844423408,-79.28845578179929,1.0
+36,4dacc7855da32d679da9ee55,Congee Town 太皇名粥,Chinese Restaurant,4bf58dd8d48988d145941735,1571 Sandhurst Cir. (at Woodside Square)Scarborough ON M1V 1V2Canada,M1V 1V2,43.80903482487377,-79.26763433869755,1.0
+37,4d7b721d86cfa143a852b4a0,Royal Chinese Seafood Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,"735 middlefield road,  unit 4-5 (middlefield and mcniccol)Toronto ON M1V 5H5Canada",M1V 5H5,43.82008744268092,-79.26152503205259,2.0
+38,4db8a2096e818f67a9add9ab,Lucky Lin's Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,5633 Finch Ave E (Finch Ave & Tapscott Rd)Toronto ON M1B 5K9Canada,M1B 5K9,43.813612899653876,-79.23794309546079,1.0
+39,4e405ae962e19d610993c29f,Lilings Kitchen,Asian Restaurant,4bf58dd8d48988d142941735,OntarioCanada,,43.818723,-79.204218,2.0
+40,50771906e4b0b3ae376312c9,Golden Joy,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.73500660231336,-79.55961685263955,2.0
+41,51e894d2498eba2af92a64a0,Famous asian fast food finch,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.74830188447153,-79.54169747496941,2.0
+42,4c07d53c708c2d7f088eca63,Pho Mi Viet Hoa,Vietnamese Restaurant,4bf58dd8d48988d14a941735,2887 Jane StToronto ON M3N 2J5Canada,M3N 2J5,43.7519356619472,-79.51597892461835,2.0
+43,4d1f71c3e56f6ea80b5c6d1d,Kiem Bo Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,3685 Keeles Street (Suite #6)Toronto ON M3jCanada,M3j,43.75414316680229,-79.48796763223027,2.0
+44,5d37a59b243af20008224ad3,Kin Sushi,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ON M3K 2B5Canada,M3K 2B5,43.754088,-79.468586,2.0
+45,4c9fd84e542b224b3f2701a0,Wakame Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,638 Sheppard Ave WToronto ON M3H 2S1Canada,M3H 2S1,43.755382185036986,-79.44094461257187,2.0
+46,55665a0b498ec5589987b1f7,Kinka Izakaya,Japanese Restaurant,4bf58dd8d48988d111941735,"4775 Yonge Street, Unit #114 (Sheppard Ave.)Toronto ON M2N 5M5Canada",M2N 5M5,43.76016102214242,-79.40982686116466,2.0
+47,5a3b15a826659b10ec8139e3,Thai Express,Asian Restaurant,4bf58dd8d48988d142941735,"4841 Yonge St, Yonge Sheppard Centre (Sheppard Avenue East)North York ON M2N 5X2Canada",M2N 5X2,43.762396,-79.41022,2.0
+48,4e8367a2f5b907135ece792f,Pearl,Chinese Restaurant,4bf58dd8d48988d145941735,2901 Bayview Ave (at Sheppard)Toronto ON M2K 1E6Canada,M2K 1E6,43.76840377388609,-79.38625631344964,1.0
+49,4cdf086f41ed224b0bd9dc3c,Bow Thai,Thai Restaurant,4bf58dd8d48988d149941735,4777 Leslie St. (at Nymark Ave.)North York ONCanada,,43.77872882612348,-79.36406502703808,2.0
+50,4ae1aee0f964a520be8621e3,Spring Rolls,Asian Restaurant,4bf58dd8d48988d142941735,1800 Sheppard Ave. E (at Fairview Mall)Toronto ON M2J 5A7Canada,M2J 5A7,43.777350695180374,-79.34397727347279,2.0
+51,4b75f4c7f964a520f0312ee3,Aoyama & Sushi Restaurant,Japanese Restaurant,4bf58dd8d48988d111941735,2766 Victoria Park Ave. (at Van Horne Ave.)Toronto ON M2J 4A8Canada,M2J 4A8,43.78714462602838,-79.32894027060964,2.0
+52,4b6e2799f964a52052ae2ce3,Happy Lamb Hot Pot,Hotpot Restaurant,52af0bd33cf9994f4e043bdd,2543 Warden Ave. (at Huntingwood Dr.)Scarborough ON M1W 2H5Canada,M1W 2H5,43.79161068939604,-79.31326863757754,
+53,58388814809a776da0e00646,Grandeur Palace 華丽宮 (Grandeur Palace 華麗宮),Chinese Restaurant,4bf58dd8d48988d145941735,"2301 Brimley Rd, Unit 128 (at Huntingwood Dr)Scarborough ON M1S 5B8Canada",M1S 5B8,43.79788486462263,-79.27058461606062,1.0
+54,52c46724498ed32ba537dbcd,Lac Vien Vietnamese Restaurant- Scarborough,Vietnamese Restaurant,4bf58dd8d48988d14a941735,2270 Markham Road (at Finch Ave. E)Scarborough ON M1B 2W4Canada,M1B 2W4,43.81141550537656,-79.24320596883133,2.0
+55,4c681572f7a80f47672fa27a,Hong Food,Chinese Restaurant,4bf58dd8d48988d145941735,31 Tapscott Rd (Neilson Rd)Toronto ONCanada,,43.80657502776566,-79.22264849544543,1.0
+56,4bbb6741cf2fc9b6be8aa202,China Palace,Chinese Restaurant,4bf58dd8d48988d145941735,3530 Derry Rd. EMississauga ONCanada,,43.71447007352449,-79.62975237074362,1.0
+57,4d88ddb47d4c548168444871,ManchuWok,Asian Restaurant,4bf58dd8d48988d142941735,WoodbineToronto ONCanada,,43.720209,-79.600678,2.0
+58,4b5f8a3df964a52062c029e3,Mandarin Buffet,Chinese Restaurant,4bf58dd8d48988d145941735,200 Queens Plate Dr (at Hwy 27)Rexdale ON M9W 6Y9Canada,M9W 6Y9,43.7203596,-79.5943875,1.0
+59,4b9924aaf964a5205e6435e3,Golden Asian,Asian Restaurant,4bf58dd8d48988d142941735,123 - #7 Rexdale Blvd.Toronto ONCanada,,43.71124779631982,-79.56596849779808,2.0
+60,4b5dd901f964a520736f29e3,Faley Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,42 Rexdale BoulevardToronto ON M9W 5Z3Canada,M9W 5Z3,43.713816758640164,-79.55867566515604,2.0
+61,5c2a768b4f0e58003945cf07,Umami,Hakka Restaurant,52af3ac83cf9994f4e043bf3,Toronto ON M9W 3P3Canada,M9W 3P3,43.724873,-79.55095,
+62,4f444a9de4b00b32df7d1fa7,Wok of Fame,Chinese Restaurant,4bf58dd8d48988d145941735,Canada,,43.74024854616242,-79.51876211468183,1.0
+63,50662019e4b0913fe1bcdacc,Caribbean House,Asian Restaurant,4bf58dd8d48988d142941735,Keel (Sheppard)Toronto ONCanada,,43.74023157694288,-79.48533688116491,2.0
+64,5792b559498ee25366b6449f,EatBKK,Thai Restaurant,4bf58dd8d48988d149941735,4704 Yonge StreetToronto ON M2N 5M4Canada,M2N 5M4,43.75932043498974,-79.41045418068941,2.0
+65,4b2acc03f964a520daaf24e3,Taro's Fish,Fish Market,4bf58dd8d48988d10e951735,800 Sheppard Ave. EToronto ON M2K 1C3Canada,M2K 1C3,43.76996164341515,-79.37465906198047,
+66,584e235102b60e2d40263821,天天渔港 Captain's Catch,Chinese Restaurant,4bf58dd8d48988d145941735,2111 Sheppard Ave East (Sheppard ave and 404 hwy)Toronto ON M2J 1W6Canada,M2J 1W6,43.774961,-79.333873,1.0
+67,4b461b62f964a5209b1626e3,Le Cafe Michi,Sushi Restaurant,4bf58dd8d48988d1d2941735,1802 Pharmacy Ave (at Sheppard Ave E)Toronto ON M1T 1A1Canada,M1T 1A1,43.775837053094016,-79.31761690899509,2.0
+68,4bdda89c587b2d7fd88a5409,One2 Snacks,Asian Restaurant,4bf58dd8d48988d142941735,8 Glen Watford DriveToronto ON M1S 2B7Canada,M1S 2B7,43.787047925304336,-79.27665787813419,2.0
+69,4aedbb5df964a52069ce21e3,Asian Legend 味香村,Asian Restaurant,4bf58dd8d48988d142941735,4452 Sheppard Ave E (at Brimley Rd)Toronto ONCanada,,43.78806782493317,-79.26676821861626,2.0
+70,4bf025afc8d920a1bd799430,Fairview Seafood Chinese Cuisine,Chinese Restaurant,4bf58dd8d48988d145941735,Toronto Division ONCanada,,43.7929068448252,-79.23934784822218,1.0
+71,5345f39a498e016dd2d7ebf2,Panda Chinese,Chinese Restaurant,4bf58dd8d48988d145941735,Toronto ONCanada,,43.80614897364144,-79.22238412007329,1.0
+72,4c706524df6b8cfab244b84d,Charley's Exotic Cuisine,Chinese Restaurant,4bf58dd8d48988d145941735,3-1158 Morningside Ave (Sheppard Ave)Toronto ON M1B 3A4Canada,M1B 3A4,43.80098159718747,-79.20023292303085,1.0
+73,51bcbfe6498ed21d532fdbf0,Chou's Garden,Chinese Restaurant,4bf58dd8d48988d145941735,Canada,,43.808214,-79.165365,1.0
+74,4f4edc4fe4b0f7bd4d44ecf9,Wakame Sushi,Japanese Restaurant,4bf58dd8d48988d111941735,"2625 Weston Rd #31, Toronto, ON M9N 3W1Toronto ON M9N 3W1Canada",M9N 3W1,43.71150708814766,-79.53179654002908,2.0
+75,4c7dc845d461a1430f677ef5,Mi Pho Song Vu,Vietnamese Restaurant,4bf58dd8d48988d14a941735,2109 Jane St (Jane and 401)Downsview ONCanada,,43.718643435521535,-79.50765266000782,2.0
+76,4d39fb9434ee37047185729b,Hung Long,Vietnamese Restaurant,4bf58dd8d48988d14a941735,1122 Wilson Ave. (at Pleasant Home Blvd.)Toronto ON M3M 1G7Canada,M3M 1G7,43.72652393180744,-79.48365933802457,2.0
+77,51f17199498e81d9b9206293,Forget Me Not Cafe Vietnamese Resto-Bar,Vietnamese Restaurant,4bf58dd8d48988d14a941735,883 Wilson AveNorth York ON M3K 1E6Canada,M3K 1E6,43.730491854293696,-79.46652955512842,2.0
+78,4c4b5d2d9e6dbe9adb92ee0b,Sampaguita Village Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,322 Wilson AveToronto ON M3H 1S8Canada,M3H 1S8,43.73693345518229,-79.43650177948841,2.0
+79,4b54a954f964a52090c527e3,Bento Box,Asian Restaurant,4bf58dd8d48988d142941735,16 York Mills Road (Yonge Street)Toronto ON M2P 2E3Canada,M2P 2E3,43.744708183583064,-79.40616898419434,2.0
+80,4dd3167d091a94a33ec245ec,Hai Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,5731 Highway 7 (Martin Grove Rd & Highway 7)Woodbridge ON L4L 4Y9Canada,L4L 4Y9,43.744611,-79.383515,2.0
+81,4bfc6313d6f2c9b6e9264fc8,China Gourmet,Asian Restaurant,4bf58dd8d48988d142941735,879 York Mills Rd (York Mills and Don Mills)Toronto Division ONCanada,,43.755188855826226,-79.34838203221797,1.0
+82,4ae71b0cf964a52078a821e3,Noodle Delight,Chinese Restaurant,4bf58dd8d48988d145941735,2555 Victoria Park AveToronto ON M1T 1A3Canada,M1T 1A3,43.77239870424429,-79.3202087535388,1.0
+83,4cdc8e53d4ecb1f7843c8048,The Royal Chinese Restaurant 避風塘小炒,Chinese Restaurant,4bf58dd8d48988d145941735,3587 Sheppard Ave E (Birchmount Rd)Toronto ONCanada,,43.78050473445372,-79.29884391314476,1.0
+84,4be303c52fc7d13ae879083a,Beef Noodle Restaurant 老李牛肉麵,Chinese Restaurant,4bf58dd8d48988d145941735,4271 Sheppard Ave. E (btwn Brimley & Midland Ave.)Scarborough ON M1S 4G4Canada,M1S 4G4,43.785937477135555,-79.27603076031062,1.0
+85,4bf46644e5eba593d89e1f90,Fukuoka Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,108 Corporate DrScarborough ON M1H 3H9Canada,M1H 3H9,43.78067935750718,-79.24732025929174,2.0
+86,4e5183a762e14b77e3b96ff0,Tokyo Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,Kingston Rd (Church)Pickering ONCanada,,43.79527023017969,-79.20237756447281,2.0
+87,4df7eadd483bc58a610857a2,King's Fish N Chips,Asian Restaurant,4bf58dd8d48988d142941735,Olde yorkToronto ONCanada,,43.79282,-79.19574,2.0
+88,57aa3bd1cd10eaaa1a100d65,Shanghai 360 Terminal 3,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.683301,-79.613823,2.0
+89,4f3d4636e4b0e6029128c75f,Spoon and fork,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.68616115056211,-79.59349759321054,2.0
+90,4b5d083ef964a520bd4f29e3,Ginko,Japanese Restaurant,4bf58dd8d48988d111941735,655 Dixon RoadToronto ON M9W 1J4Canada,M9W 1J4,43.68919348672182,-79.57844087379546,4.0
+91,4b97d2fcf964a5200d1835e3,Gourmet Express,Chinese Restaurant,4bf58dd8d48988d145941735,1735 Kipling Ave. (at Dixon Rd.)Toronto ON M9R 2Y8Canada,M9R 2Y8,43.69311138097989,-79.55729392261416,1.0
+92,4eeb9f7d0039490c7d4562ea,Emmie's Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,235 Dixon RoadEtobicoke ON M9PCanada,M9P,43.69794474434431,-79.54335451126099,1.0
+93,4ccc5aebee23a14370591ea8,Lac Vien Vietnamese Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,141 Cartwright AveToronto ONCanada,,43.72125878799614,-79.46847226859448,2.0
+94,5c426e34065ef5002c050b40,Tora Aburi Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,3401 Dufferin St Ste 612BToronto ON M6A 2T9Canada,M6A 2T9,43.724257,-79.455383,2.0
+95,4de2d72718385df2b02e57d5,Riz North,Asian Restaurant,4bf58dd8d48988d142941735,3325 Yonge St (Fairlawn)Toronto ON M4N 2L9Canada,M4N 2L9,43.730791502496054,-79.40371860011433,2.0
+96,4b78331ef964a520b9bb2ee3,Samjung Japanese Restaurant,Japanese Restaurant,4bf58dd8d48988d111941735,1865 Leslie St (at Coldwater Rd)Toronto ON M3B 2M3Canada,M3B 2M3,43.75525099504457,-79.36032313234564,2.0
+97,4c0150f4716bc9b65b9dbb55,Spicy Chicken House,Chinese Restaurant,4bf58dd8d48988d145941735,1277 York Mills Rd.North York ON M3A 1Z5Canada,M3A 1Z5,43.76063939666398,-79.32567060771729,1.0
+98,4bd879f0f645c9b6e107a8e0,Golden House Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,257 Ellesmere Rd (near Warden Ave)Toronto ON M1R 4E4Canada,M1R 4E4,43.760553,-79.30194999488842,1.0
+99,4b6475aef964a520eab42ae3,Kim Kim restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,1188 Kennedy RdScarborough ON M1P 2L1Canada,M1P 2L1,43.75383283792732,-79.27661122245037,2.0
+100,4d6008f829ef236a8832a059,CANBE Foods Inc,Indian Restaurant,4bf58dd8d48988d10f941735,1760 Ellesmere Rd.Scarborough ON M1H 2V5Canada,M1H 2V5,43.77354633117736,-79.24608237285928,2.0
+101,50425e05e4b03ccc16fdb911,Jaffna super store,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.77855,-79.2291,2.0
+102,4d6bdd14df3d6ea8c779d626,Spring Rolls,Asian Restaurant,4bf58dd8d48988d142941735,1265 Military TrailToronto ONCanada,,43.78346149944194,-79.18724864499269,2.0
+103,4f18831be5e86217407242c1,The Golden Chopstick,Chinese Restaurant,4bf58dd8d48988d145941735,271 Old Kingston RdScarborough ON M1C 1B4Canada,M1C 1B4,43.782189,-79.172468,1.0
+104,4c0bf5f5ffb8c9b6010b6e61,Mayflower Chinese Food,Chinese Restaurant,4bf58dd8d48988d145941735,1500 Royal York RdToronto ON M9P 3B6Canada,M9P 3B6,43.69275315666511,-79.53156594082111,1.0
+105,554a8138498e4d688e63e369,Real Thai On,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.700504302978516,-79.5031509399414,2.0
+106,4db321adfa8c350240c67f09,Golden Star Thai & Vietnamese Cuisine,Asian Restaurant,4bf58dd8d48988d142941735,1690 Jane StreetToronto ONCanada,,43.703294698834775,-79.50388233847723,2.0
+107,4e11fd03b61c637b97b2386e,Hakka No. 1,Chinese Restaurant,4bf58dd8d48988d145941735,2355 Keele St #15North York ON M6M 2Y4Canada,M6M 2Y4,43.70779096413223,-79.47735333337515,1.0
+108,4b5f1f11f964a52047a729e3,Yuki Japanese Restaurant,Sushi Restaurant,4bf58dd8d48988d1d2941735,3259 Dufferin St.Toronto ON M6A 2T2Canada,M6A 2T2,43.72060971477955,-79.45611946822187,2.0
+109,4b677872f964a520f2502be3,Rainbow Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,3450 Bathurst St.Toronto ON M6A 2C4Canada,M6A 2C4,43.71809599324529,-79.42956472273946,2.0
+110,4ec0554e775b98876e706820,Wakame Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,638 Sheppard Ave WestNorth York ON M3H 2S1Canada,M3H 2S1,43.732435477774246,-79.38002855857374,2.0
+111,542edf52498e14ac51796da2,B.B.Q Fast Food,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ONCanada,,43.73013687133789,-79.35706329345703,2.0
+112,53bafb4f498eb927faa3cd9e,Matsuda Japanese Cuisine & Teppanyaki,Japanese Restaurant,4bf58dd8d48988d111941735,1300 Don Mills Rd #2North York ON M3B 2W6Canada,M3B 2W6,43.74549366550305,-79.34582141079446,2.0
+113,5269be82498e1cf7de5d5dd4,Super Hakka Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,1801 Lawrence Ave EM1R 2X7Canada,M1R 2X7,43.74289206733354,-79.30494945617208,1.0
+114,4b647754f964a52079b52ae3,Spicy Dragon,Asian Restaurant,4bf58dd8d48988d142941735,1060 Kennedy RdToronto ONCanada,,43.74921946341891,-79.27508200752006,1.0
+115,50a572b1e4b0bf59ea8b91f1,Charcoal Kebab House,Xinjiang Restaurant,52af3b913cf9994f4e043c06,3256 Lawrence Ave. EastScarborough ON M1H 3C2Canada,M1H 3C2,43.75734816869592,-79.23884167698144,
+116,4b64765ff964a52028b52ae3,Lucky Hakka,Chinese Restaurant,4bf58dd8d48988d145941735,"3774 Lawrence Avenue East, (Lawrence & Scarborough Golf Club)Scarborough M1G 1P9 ONCanada",ON,43.76246964027991,-79.21416375162714,1.0
+117,53c1d5dc498e27a169c548a9,Wok Stop,Chinese Restaurant,4bf58dd8d48988d145941735,271-A Morningside AveScarborough ON M1E 3G1Canada,M1E 3G1,43.77178192138672,-79.18749237060547,1.0
+118,4c02f2350d0e0f4764ea019a,House Of Wong,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.773841,-79.183125375,2.0
+119,4e3c40a052b1a04aff07de79,Taste Buddies,Chinese Restaurant,4bf58dd8d48988d145941735,5532 Lawrence AveScarborough ONCanada,,43.775771,-79.15021,1.0
+120,591a3c6ebd40092ec92eb00a,Bánh Shop,Thai Restaurant,4bf58dd8d48988d149941735,Toronto Pearson International AirportMississauga ON L5PCanada,L5P,43.676655,-79.612272,2.0
+121,5373f5cd498e6b4ca04b2ef7,Asian Express,Asian Restaurant,4bf58dd8d48988d142941735,250 Wincott Dr Unit 3 (Wincott Dr/Eglinton Ave W)Etobicoke ON M9R 2R5Canada,M9R 2R5,43.67945746920416,-79.54632995855519,2.0
+122,4ef9f88ebe7bb4784fcf2ba1,Pho Asia 39,Asian Restaurant,4bf58dd8d48988d142941735,1391 Weston Rd. (at Jane St.)Toronto ON M6M 2J1Canada,M6M 2J1,43.69156172648821,-79.5008511792945,2.0
+123,4d8fb815c479a35de52c6397,Sheila Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,1161 weston rd (Weston & eglington)Toronto ONCanada,,43.687428994866764,-79.48998320874136,2.0
+124,5547aad8498e00f3f580ea93,Sushi Zuki,Japanese Restaurant,4bf58dd8d48988d111941735,2030 Eglinton Avenue WestCanada,,43.69449449646573,-79.45614091259421,2.0
+125,4b776902f964a52094982ee3,Li Cheng Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,529 Marlee AvenueToronto ONCanada,,43.70882792296303,-79.44336647383521,2.0
+126,4b107e81f964a520b07123e3,EDO,Japanese Restaurant,4bf58dd8d48988d111941735,484 Eglinton Ave. W (btwn Heddington & Castleknock)Toronto ON M5N 1A2Canada,M5N 1A2,43.703753667738965,-79.41280203647945,3.0
+127,53865482498edb61054992bd,Star King,Vietnamese Restaurant,4bf58dd8d48988d14a941735,2350 Yonge StreetToronto ON M4P 2E6Canada,M4P 2E6,43.70851901243233,-79.39876370631299,2.0
+128,54ebd332498e2e9b20eea0f5,Siam Square Hut,Thai Restaurant,4bf58dd8d48988d149941735,"680 Eglinton Ave E, Unit 120 (Eglinton And Bayview)Toronto ON M4G 2K2Canada",M4G 2K2,43.71138740187517,-79.37620149855756,2.0
+129,52fd7d28498e9164b5ba53a2,Pho 88 發發餐廳,Asian Restaurant,4bf58dd8d48988d142941735,900 Don Mills Road (Don Mills Road and Lawrence Ave East)Toronto ONCanada,,43.72664201962024,-79.3423446449432,1.0
+130,550df684498ea2dd2c87bb5a,Jatujak,Thai Restaurant,4bf58dd8d48988d149941735,1744  Victoria Park (Surrey Ave)North York ON M1R 1R4Canada,M1R 1R4,43.736207542145884,-79.30766830088342,2.0
+131,4e4ea736aeb70f128495108f,Diana's Oyster Bar & Grill,Seafood Restaurant,4bf58dd8d48988d1ce941735,2105 Lawrence Ave. E (at Crockford Blvd.)Toronto ON M1R 2Z4Canada,M1R 2Z4,43.74565030746695,-79.29158004146461,3.0
+132,4bafb9cbf964a520691b3ce3,Lucky Chinese (Haka) Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,2650 Lawrence Ave East (at Midland Ave)Toronto ONCanada,,43.75246481901907,-79.26531065358034,2.0
+133,4ccc6b0dba0a5481623f3d59,Tai Chi Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,4190 Kingston RoadToronto ONCanada,,43.759544,-79.19818,1.0
+134,4c1180cf72caa59362ad5da4,Kapit Bahay,Filipino Restaurant,4eb1bd1c3b7b55596b4a748f,4218 Lawrence Ave E (Lawrence / Morningside)Toronto ON M1E 4X9Canada,M1E 4X9,43.76931942785645,-79.18444235234782,4.0
+135,4bfefc3b68c7a593dc004044,Golden Wok Chinese Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,120 Eringate Dr. Unit #3 (Renforth Dr)Toronto ON M9C 3Z8Canada,M9C 3Z8,43.66049068196177,-79.58231896162033,4.0
+136,5c2d5e9718d43b002c10e966,Bento Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,125 The QueenswayEtobicoke ON M8Y 1H6Canada,M8Y 1H6,43.66427407107543,-79.55875814033787,2.0
+137,4eb98ba293ad51b46f2aab85,Spring rolls,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.68089595078703,-79.49901156812044,2.0
+138,4c5f2c1fde6920a194309364,Island Breeze,Asian Restaurant,4bf58dd8d48988d142941735,907 Jane Street (Alliance)Toronto ONCanada,,43.67742716216074,-79.49604614685293,2.0
+139,5239e9808bbd70cc8230a05c,Duckee Asian Food,Asian Restaurant,4bf58dd8d48988d142941735,525 Eglinton Avenue West (Eglinton Ave west at Avenue Rd)Toronto ON M5N 1B1Canada,M5N 1B1,43.70326571547134,-79.41458702087402,2.0
+140,4c54a7d21b46c9b6b7ccebce,Tokyo Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,373 Eglinton St. W (Avenue)Toronto ONCanada,,43.704145677479275,-79.41063075217247,2.0
+141,4b43ef12f964a52063ee25e3,Riz,Asian Restaurant,4bf58dd8d48988d142941735,1677 Bayview Ave. (btwn. Fleming Cr. and Parkhurst Blvd.)Toronto ON M4G 3C2Canada,M4G 3C2,43.70754099358982,-79.37588021310857,2.0
+142,530feb6b498e4958420dc8de,Kintako Japanese Restaurant,Sushi Restaurant,4bf58dd8d48988d1d2941735,214 Laird drive (Eglinton east)Toronto ON M4G 3W4Canada,M4G 3W4,43.71159659251094,-79.36396207124376,2.0
+143,4b36ac26f964a520623a25e3,Kaiseki Yu-Zen Hashimoto,Japanese Restaurant,4bf58dd8d48988d111941735,6 Garamind CourtToronto ON M3C 1Z5Canada,M3C 1Z5,43.720931369435235,-79.33718506953988,2.0
+144,5140b2abe4b0f76b9be90a34,Manchu Wok,Asian Restaurant,4bf58dd8d48988d142941735,"1 Eglinton Sq. #107, Eglinton SqScarborough ON M1L 2K1Canada",M1L 2K1,43.722842,-79.300604,1.0
+145,4b6475def964a520f9b42ae3,Chung Moi,Chinese Restaurant,4bf58dd8d48988d145941735,2412 Eglinton Ave EToronto ONCanada,,43.73232776751296,-79.26932737877392,1.0
+146,5098160ae4b000bd22066b64,Food Garden Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,2522 Eglinton Avenue EastScarborough ONCanada,,43.73527272472259,-79.25662005288319,2.0
+147,4b0dcda4f964a520635023e3,Lucky Lin's,Chinese Restaurant,4bf58dd8d48988d145941735,226 Markham Roaf (Markham Road and Eglinton Ave E)Toronto ONCanada,,43.74447054550769,-79.21967422970273,1.0
+148,53e16912498e78268d5c080c,Meiking Cuisine,Chinese Restaurant,4bf58dd8d48988d145941735,3704 Kingston RdScarborough ON M1J 3H3Canada,M1J 3H3,43.7453915321338,-79.21033222131106,1.0
+149,4ef0ea38e5e89bf278233471,Hong Kong Gourmet,Chinese Restaurant,4bf58dd8d48988d145941735,460 Renforth DriveEtobicoke ON M9CCanada,M9C,43.651106046724365,-79.57953214645386,1.0
+150,4ca9230897c8a1cdce2d8ca5,Far East Chinese Food,Chinese Restaurant,4bf58dd8d48988d145941735,137 Martin Grove Road (Burnhamthorpe Road)Toronto ONCanada,,43.649243794114106,-79.54886564950132,1.0
+151,4bf5d2b7bfeac92893559336,Daisaky,Japanese Restaurant,4bf58dd8d48988d111941735,270 The Kingsway (Dundas and Royal York)Toronto ONCanada,,43.66237993188327,-79.51967349081686,2.0
+152,4bdb864a3904a59390f74a9e,Yummy Yummy Chinese Food,Chinese Restaurant,4bf58dd8d48988d145941735,26C ScarlettToronto ON M6N 4K1Canada,M6N 4K1,43.66554427362536,-79.49904451670567,1.0
+153,4c082a5aa1b32d7f349895f0,Saigon Bangkok,Thai Restaurant,4bf58dd8d48988d149941735,2428 St Clair Ave WToronto ONCanada,,43.669513050651155,-79.48217577632411,2.0
+154,4f99e1a3e4b0922288c501b4,Pho Xua,Vietnamese Restaurant,4bf58dd8d48988d14a941735,1768 St Clair Ave (Osler)Toronto ONCanada,,43.674056,-79.461112,2.0
+155,4ce588455fce5481cd1e5caa,Cho Cho Cho,Chinese Restaurant,4bf58dd8d48988d145941735,863 St. Clair Ave W (Winona Ave)Toronto ON M6CCanada,M6C,43.680139022918006,-79.43289460634793,2.0
+156,4bcba24ecc8cd13a47dabfcf,Taste of Thai House,Thai Restaurant,4bf58dd8d48988d149941735,62 Vaughan Rd (at St Clair West)Toronto ONCanada,,43.68273510337587,-79.41966075174597,2.0
+157,4be349d763609c7439e11bff,Daeco Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,40 St. Clair West (St. Clair Ave. West and Yonge St.)Toronto ONCanada,,43.68783769992881,-79.39565249242683,2.0
+158,4dcda6b7e4cd130e16534f51,Thai Spicy House,Thai Restaurant,4bf58dd8d48988d149941735,517 Mount Pleasant Road (North of Davisville)Toronto ONCanada,,43.7019616162845,-79.3875129672506,2.0
+159,4b521c2bf964a520aa6827e3,Satay on the Road,Thai Restaurant,4bf58dd8d48988d149941735,1572 Bayview Ave. (btwn Belsize Dr. & Manor Rd. E)Toronto ON M4G 3B7Canada,M4G 3B7,43.70555149342382,-79.37520425000197,2.0
+160,519e5984498e0d93b06d2b45,Trendee Chinese Cuisine,Asian Restaurant,4bf58dd8d48988d142941735,64 Overlea Blvd.Toronto ON M4H 1C4Canada,M4H 1C4,43.708212839174564,-79.34261997257181,2.0
+161,4dd05e15ae603b786d5f1a34,977 Cafe,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ONCanada,,43.70699928709498,-79.31028642975146,2.0
+162,5a5aac4fe57ca6276aa843fc,Premium Sweets @ Lebovic,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ON M1L 4V9Canada,M1L 4V9,43.721596,-79.28898,2.0
+163,55dded07498eecf46ed3e0d9,Hakka Legend,Chinese Restaurant,4bf58dd8d48988d145941735,789 Warden Av. (Civic Rd.)Scarborough ON M1L 4C2Canada,M1L 4C2,43.726046144728045,-79.28656126436917,1.0
+164,4e3201b518387ab7fc50f248,Lam Kee B. B. Q. Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,4 Greystone Walk Dr. (btwn Midland Ave. & Danforth Rd.)Scarborough ONCanada,,43.724812738000224,-79.25211067659093,2.0
+165,5262bc9311d2f51f54f035ef,Warung Kampoeng,Indonesian Restaurant,4deefc054765f83613cdba6f,3143 Eglinton Ave EToronto ONCanada,,43.74198464874808,-79.22257689385546,2.0
+166,4e584129d16491e0ae55f265,China China,Chinese Restaurant,4bf58dd8d48988d145941735,Mississauga ONCanada,,43.636094278540774,-79.59659149486076,1.0
+167,4bd89b8411dcc9289f07f733,Spoon and Fork,Thai Restaurant,4bf58dd8d48988d149941735,5555 Eglinton Ave WMississauga ON M9C 5M1Canada,M9C 5M1,43.64534260328219,-79.56401794835405,2.0
+168,4b92e35bf964a520962434e3,Pho House,Vietnamese Restaurant,4bf58dd8d48988d14a941735,5230 Dundas St. W (at Six Points Plaza)Etobicoke ON M9B 1A8Canada,M9B 1A8,43.63952805766307,-79.5372173183437,2.0
+169,4b4919fcf964a520ea6526e3,Toji Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,5088 Dundas St. WToronto ON M9A 1C2Canada,M9A 1C2,43.64504527395211,-79.53220458627301,2.0
+170,4d0c0f951f6bf04d59567531,Westwood Grill,Asian Restaurant,4bf58dd8d48988d142941735,519 Annette St (at Runnymede Rd)Toronto ON M6P 1S1Canada,M6P 1S1,43.65996227884925,-79.47975658290109,2.0
+171,4c0d82f17189c9289124d7b6,Silk,Asian Restaurant,4bf58dd8d48988d142941735,2907 dundas street westToronto ONCanada,,43.66529073542964,-79.46623843808621,2.0
+172,4b4b580ef964a520319826e3,Martino's Pizza,Asian Restaurant,4bf58dd8d48988d142941735,178 Dupont St (at St George St)Toronto ONCanada,,43.67555992434719,-79.40355789179394,1.0
+173,52fbfe3411d22ddfbf78fe11,kibo sushi house,Sushi Restaurant,4bf58dd8d48988d1d2941735,7 Walker Ave (Yonge St)Toronto ONCanada,,43.68272679006777,-79.39227003229884,2.0
+174,4d72d530ec075481ab7c8fbf,Number One Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,897 Pape Ave (at Sammon Ave)Toronto ON M4K 3T9Canada,M4K 3T9,43.684585940432,-79.34690952301025,1.0
+175,4e18729fb3ad8e08699ec3bb,Little Coxwell Restaurant,Thai Restaurant,4bf58dd8d48988d149941735,986 Coxwell Ave (at Plains Rd)Toronto ON M4C 3G5Canada,M4C 3G5,43.69618013437164,-79.32895810683836,2.0
+176,50edcd30e4b0372659fcb29a,Golden Wok Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,94 Halsley DrEast York ONCanada,,43.70060129544217,-79.29734326742343,1.0
+177,4cd07bbb3e63721ef2599ecc,Pho Dai Nam,Asian Restaurant,4bf58dd8d48988d142941735,Canada,,43.70769911444665,-79.26878277092358,2.0
+178,4c76d1c76981bfb7cc7c60e6,Ikki Sushi Japanese And Cuisine,Sushi Restaurant,4bf58dd8d48988d1d2941735,2328 Kingston Rd. (Sharpe St)Scarborough ON M1N 1V2Canada,M1N 1V2,43.706561003837585,-79.25149470661424,2.0
+179,4d1124c599b78cfa529fc7d5,Super Choy Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,Scarboroigh ONCanada,,43.72128910603268,-79.23669787617699,1.0
+180,57afb7d1498eb701a3575cc1,indeed,Thai Restaurant,4bf58dd8d48988d149941735,Canada,,43.726842,-79.229963,2.0
+181,4bc5e795bf29c9b6a6ddf82a,Bánh Mì Tan Dinh,Vietnamese Restaurant,4bf58dd8d48988d14a941735,"3415 Dixie Rd, Unit 15 (at Bloor)Mississauga ONCanada",,43.61812788258373,-79.59517478942871,2.0
+182,5d926f473306ad000890cce1,Congee Queen,Chinese Restaurant,4bf58dd8d48988d145941735,1911 Dundas St EMississauga ON L4X 1M1Canada,L4X 1M1,43.62109,-79.57227,1.0
+183,4bc8e3a068f976b05b375c83,Taste of Thailand Cuisine,Thai Restaurant,4bf58dd8d48988d149941735,5310 Dundas Street W.Toronto ON M9B 1B3Canada,M9B 1B3,43.63592844376696,-79.54078546433666,2.0
+184,4ae874d9f964a5207eaf21e3,Lemongrass,Thai Restaurant,4bf58dd8d48988d149941735,3300 Bloor St W (Islington Ave)Toronto ONCanada,,43.64501004827513,-79.52237930103196,2.0
+185,4b11a52ef964a5204b8123e3,Momiji Sushi Bar & Grill,Sushi Restaurant,4bf58dd8d48988d1d2941735,2955 Bloor St. W. (at Royal York Rd.)Etobicoke ON M8X 1B8Canada,M8X 1B8,43.647843041892976,-79.50853435479806,2.0
+186,4b92dbe4f964a5202b2234e3,Yumi Sushi,Asian Restaurant,4bf58dd8d48988d142941735,2384 Bloor Street WestToronto ONCanada,,43.64989127391365,-79.4824044490675,2.0
+187,5bbe27fa2aff31002c3bb256,Seoul Shakers,Asian Restaurant,4bf58dd8d48988d142941735,1241 Bloor St. WToronto ONCanada,,43.658337546306115,-79.44184899330139,1.0
+188,58b0e82d5d6ec60662cbda46,Pinky's Ca Phe,Asian Restaurant,4bf58dd8d48988d142941735,53 Clinton St (College St)Toronto ON M6G 2Y4Canada,M6G 2Y4,43.65553023379977,-79.4138787532894,2.0
+189,59851997f5e9d708498857f2,Pho 88,Asian Restaurant,4bf58dd8d48988d142941735,594 Bloor St W (btwn Palmerston Ave & Markham St)Toronto ON M6G 1K6Canada,M6G 1K6,43.6649,-79.412861,2.0
+190,4b97bb72f964a520671235e3,KOKO Share Bar,Asian Restaurant,4bf58dd8d48988d142941735,81 YorkvilleToronto ON M5R 1C1Canada,M5R 1C1,43.671033938155546,-79.39145701257964,3.0
+191,50cc21c37ab4d9c0594b6994,Kingyo Toronto,Japanese Restaurant,4bf58dd8d48988d111941735,51B Winchester St. (at Broadcast Ln.)Toronto ON M4X 1R7Canada,M4X 1R7,43.66589495808371,-79.36841520638596,2.0
+192,4adcb1a9f964a520d52e21e3,Danforth Dragon Restaurant,Asian Restaurant,4bf58dd8d48988d142941735,"861 Danforth Avenue (East of Jones, south side)Toronto ON M4J 1L8Canada",M4J 1L8,43.6798113424494,-79.339838432929,2.0
+193,58f3a1972b98444cc96f4c53,Sala Modern Thai Kitchen & Bar,Thai Restaurant,4bf58dd8d48988d149941735,Toronto ON M4J 1M6Canada,M4J 1M6,43.68188522065964,-79.33072046699459,2.0
+194,5000b633e4b0ebdd7256ffbb,Thai Room,Thai Restaurant,4bf58dd8d48988d149941735,2063 Danforth Ave (Woodbine)Toronto ON M4C 1J8Canada,M4C 1J8,43.68560497061049,-79.31321306868954,2.0
+195,4eb70cecd3e3644ca6ea9b31,Mayettes Famous Restaurant Filipino food,Filipino Restaurant,4eb1bd1c3b7b55596b4a748f,3331 Danforth Ave (August avenue)Scarborough ON M1l3y1Canada,M1l3y1,43.69245263464061,-79.2818284034729,2.0
+196,511732bbe4b066680f965200,Jatujak,Thai Restaurant,4bf58dd8d48988d149941735,1466 Kingston Rd. (Kingston & Warden)Toronto ON M1N 1R6Canada,M1N 1R6,43.688420506662354,-79.2700732547006,2.0
+197,58210b112db9f34bb29dcbf4,Bourbon St. Grill,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ON M9CCanada,M9C,43.613182,-79.558551,2.0
+198,4c881a9d7223b1f7c1fb28a8,Mekong River Restaurant,Vietnamese Restaurant,4bf58dd8d48988d14a941735,5468 Dundas St. WToronto ON M6NCanada,M6N,43.632642961028864,-79.54418447088408,2.0
+199,4d1b6b5add363704bb09641a,Spoon and Fork,Asian Restaurant,4bf58dd8d48988d142941735,"1233 The Queensway, Unit 24 (E of Kipling Ave)Toronto ON M8Z 1S1Canada",M8Z 1S1,43.62067853539908,-79.52443986647002,2.0
+200,4bc903c7511f95212bf6acc7,Bua Thai,Thai Restaurant,4bf58dd8d48988d149941735,743 The Queensway (at Royal York Rd.)Toronto ON M8Z 1M8Canada,M8Z 1M8,43.62617599626846,-79.50322822597944,2.0
+201,543b1213498e97d631e83226,U-Know Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,170 The QueenswayEtobicoke ONCanada,,43.63032631048586,-79.48538631142218,2.0
+202,4c44df24dcd61b8da3f97b56,Sushi On Roncy,Sushi Restaurant,4bf58dd8d48988d1d2941735,293 Roncesvalles Ave. (btw Geoffrey St. & Westminster Ave.)Toronto ON M6R 2M3Canada,M6R 2M3,43.647862405268434,-79.44949300964225,2.0
+203,4bf80b445efe2d7f61f96934,Shangrila,Asian Restaurant,4bf58dd8d48988d142941735,1600 Queen St. W. (Sorauren)Toronto ONCanada,,43.63968830259313,-79.44154153471632,2.0
+204,54c46166498edeaa806cabc8,Hanmoto,Asian Restaurant,4bf58dd8d48988d142941735,2 Lakeview Drive (Dundas)Toronto ON M5C 1X6Canada,M5C 1X6,43.649505301973576,-79.42276783144736,2.0
+205,53e2ccfc498e939aba67efac,DaiLo,Asian Restaurant,4bf58dd8d48988d142941735,503 College St. (Palmerston Blvd)Toronto ONCanada,,43.65593123308572,-79.40992383039809,2.0
+206,4af45a8af964a52097f121e3,Banh Mi Nguyen Huong,Asian Restaurant,4bf58dd8d48988d142941735,322 Spadina Ave. (at Dundas St E)Toronto ON M5T 2G2Canada,M5T 2G2,43.653628006211044,-79.3983759881993,1.0
+207,4ad4c061f964a52095f720e3,Salad King,Asian Restaurant,4bf58dd8d48988d142941735,340 Yonge St (at Gould St)Toronto ON M5B 1R7Canada,M5B 1R7,43.65760101432665,-79.38161963017174,2.0
+208,4bfb0fcaf214a59368bcae0e,Ha Noi 3 Seasons,Asian Restaurant,4bf58dd8d48988d142941735,588 Gerrard St E (at Broadview Ave)Toronto ON M4M 1Y3Canada,M4M 1Y3,43.665578086017604,-79.3521527142361,1.0
+209,5859d15c1d21ba53f2f9b4ef,Lake Inez,Asian Restaurant,4bf58dd8d48988d142941735,1471 Gerrard St EToronto ON M4L 2A1Canada,M4L 2A1,43.672520212121675,-79.32071230366756,2.0
+210,4c535e4afd2ea593856b4f28,The Goof,Asian Restaurant,4bf58dd8d48988d142941735,Queen St. E. (Beech Ave.)Toronto ONCanada,,43.672632571715766,-79.28746725153027,2.0
+211,5262be05498edf37a7b00185,Jade Dim Sum,Chinese Restaurant,4bf58dd8d48988d145941735,2280 Dixie Road Unit 1-2 (Queensway E)Mississauga ON L4Y 1Z4Canada,L4Y 1Z4,43.603453152068596,-79.57572002519814,1.0
+212,4bc35302b492d13a0d91a860,Famous Wok,Asian Restaurant,4bf58dd8d48988d142941735,25 The West Mall (at Sherway Gardens)Toronto ON M9C 1B8Canada,M9C 1B8,43.611256,-79.556967,2.0
+213,57ad219238fa6c46b613ee5e,krazy roll,Sushi Restaurant,4bf58dd8d48988d1d2941735,Marine Parade DriveToronto ONCanada,,43.625837,-79.477113,2.0
+214,53c8e60c498ef6f992f39a4f,Himalayan Kitchen,Asian Restaurant,4bf58dd8d48988d142941735,1526 Queen St WToronto ON M6R 1A4Canada,M6R 1A4,43.640354,-79.43879,
+215,4af369d0f964a52060ed21e3,Foxley Bistro,Asian Restaurant,4bf58dd8d48988d142941735,207 Ossington Ave (Dundas)Toronto ON M6J 2Z8Canada,M6J 2Z8,43.648642746283834,-79.42049525794245,2.0
+216,5741f9d3498ee283bf0d7c11,Basil Box,Asian Restaurant,4bf58dd8d48988d142941735,441 Queen St W (at Spadina Ave)Toronto ON M5V 2A5Canada,M5V 2A5,43.64873189146827,-79.39623046744899,2.0
+217,50468014e4b01c18bb731df8,Bosk at Shangri-La,Asian Restaurant,4bf58dd8d48988d142941735,188 University Ave.Toronto ON M5H 0A3Canada,M5H 0A3,43.649022736761516,-79.38582635521233,4.0
+218,50e88fc6e4b007fcbb57aae8,Izumi,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ONCanada,,43.6499697935016,-79.36015326451906,2.0
+219,5338a65c498e46f6db9d3220,Kibo Sushi House,Sushi Restaurant,4bf58dd8d48988d1d2941735,1169 Queen St. E. (Queen St. E. & Jones Ave)Toronto ONCanada,,43.662633,-79.332677,2.0
+220,4bbcbd188ec3d13ae5261b28,Peony Thai & Chinese Cuisine,Asian Restaurant,4bf58dd8d48988d142941735,256 Browns LineEtobicoke ON M8W 3T5Canada,M8W 3T5,43.598908685775086,-79.54431013687135,2.0
+221,4e3db8712271d21e86fa9df4,Ranu Thai Food,Thai Restaurant,4bf58dd8d48988d149941735,3308 Lakeshore Blvd W (Twenty Sixth St)Etobicoke ON M8W 1M8Canada,M8W 1M8,43.596602626993985,-79.52410945674968,2.0
+222,4e9f18704901fd63b8543c86,Kumo Sushi,Japanese Restaurant,4bf58dd8d48988d111941735,562 Kipling AveEtobicoke ONCanada,,43.615388808993316,-79.52441452576278,2.0
+223,51c08c38498e825fdbe37f4e,Nimman Thai Cuisine,Thai Restaurant,4bf58dd8d48988d149941735,2451 Lakeshore Blvd west (Mimico)Toronto ON M8V 1C5Canada,M8V 1C5,43.613348862360546,-79.48871553032649,2.0
+224,57b0d4cc498e6f0a52325218,Krazy Roll,Japanese Restaurant,4bf58dd8d48988d111941735,84 Marine Parade DrToronto ON M8VCanada,M8V,43.62407,-79.478167,2.0
+225,4c6ab930a3932c7a8c02fef4,Saigon Bistro,Asian Restaurant,4bf58dd8d48988d142941735,122 Atlantic Avenue (Liberty Village)Toronto ON M6K 1X9Canada,M6K 1X9,43.63972464451113,-79.42111658534212,2.0
+226,4ae7757df964a52082ab21e3,Lee,Asian Restaurant,4bf58dd8d48988d142941735,603 King Street West (Portland Street)Toronto ON M5V 1M5Canada,M5V 1M5,43.64437490992841,-79.40042526918113,3.0
+227,4ae33054f964a520759121e3,Pearl Harbourfront,Chinese Restaurant,4bf58dd8d48988d145941735,200-207 Queens Quay W.Toronto ON M5J 1A7Canada,M5J 1A7,43.63815654013541,-79.38068763743328,3.0
+228,5cdbf9c5286fda002c3d63c8,Manchu Wok,Chinese Restaurant,4bf58dd8d48988d145941735,"1250 South Service Rd #70, Dixie OutletMississauga ON L5E 1V4Canada",L5E 1V4,43.593096,-79.568355,1.0
+229,4e610ba218a8ce02fc3b4b81,Lotus Island Vietnamese Eatery,Vietnamese Restaurant,4bf58dd8d48988d14a941735,1-1381 Lakeshore Rd E Mississauga ONMississauga ON L5E 1G6Canada,L5E 1G6,43.58469860822024,-79.55118962772133,2.0
+230,4bdf5871ffdec928f5a9eba1,Just Japan,Sushi Restaurant,4bf58dd8d48988d1d2941735,3226 Lakeshore Blvd WToronto ONCanada,,43.59728452312372,-79.521472487427,2.0
+231,4e32dd7218a846d7ed0c638b,Longrain,Asian Restaurant,4bf58dd8d48988d142941735,3039 Lake Shore Blvd WestToronto ON M8V 1K5Canada,M8V 1K5,43.601042,-79.500354,2.0
+232,53a9acf8498ef1dd736e83d1,Noodle House,Thai Restaurant,4bf58dd8d48988d149941735,Mississauga ONCanada,,43.570051528546564,-79.5661635424173,2.0
+233,4bb23f03eb3e9521ecc3c90a,Thai Bamboo Restaurant,Thai Restaurant,4bf58dd8d48988d149941735,2150 Steeles Avenue West (at Keele St.)Concord ON L4K 2Y7Canada,L4K 2Y7,43.78245519999717,-79.49171549392352,2.0
+234,52d1a4b211d28ab77ef3e7a5,yellow chilly,Indian Restaurant,4bf58dd8d48988d10f941735,"1747 Albion Road, Unit 1 (Hwy 27 & Albion Rd)Etobicoke ON M9V 1C3Canada",M9V 1C3,43.74377332839713,-79.60512111946439,2.0
+235,4b2ff377f964a52037f324e3,Oshio Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,2900 Steeles Ave. E. (Highway 404)Thornhill ON L3T 4X1Canada,L3T 4X1,43.81267708880225,-79.35790137099896,2.0
+236,518ecb48498eb00f6f53535c,Touch Down Foods Inc,Asian Restaurant,4bf58dd8d48988d142941735,Finch & TapscottToronto ONCanada,,43.80760521421234,-79.23455563268314,2.0
+237,4b3e8e54f964a520e19e25e3,Peking Man 牛家莊,Chinese Restaurant,4bf58dd8d48988d145941735,1100 Sheppard Ave E (Leslie)Toronto ONCanada,,43.770886228080634,-79.36945927876354,2.0
+238,5b6a321d340a58002cc0d9db,Omni Palace Noodle House,Chinese Restaurant,4bf58dd8d48988d145941735,235 Consumers RoadToronto ON M2J 0E9Canada,M2J 0E9,43.771047,-79.33157,1.0
+239,4aeb1ce4f964a52086be21e3,Ni-Ji,Japanese Restaurant,4bf58dd8d48988d111941735,1095 Ellesmere Rd (At Midland Ave)Toronto ON M1P 2W9Canada,M1P 2W9,43.767625179408995,-79.27139940060562,2.0
+240,54a6ea76498ebc906c8c3652,Hakka Legend,Chinese Restaurant,4bf58dd8d48988d145941735,2058 Ellesmere RoadScarborough ONCanada,,43.77630936532644,-79.23493865172834,1.0
+241,4c9f77980e9bb1f7659bf05f,The Bean Sprout,Chinese Restaurant,4bf58dd8d48988d145941735,"1448 Lawrence Avenue East, Unit 7North York ON M4ACanada",M4A,43.742228835254664,-79.31357696452841,1.0
+242,4b12efd8f964a5202e9123e3,Prince Japanese Steakhouse,Japanese Restaurant,4bf58dd8d48988d111941735,5555 Eglinton Avenue West (Eglinton & Spectrum)Toronto ON M9C 5M1Canada,M9C 5M1,43.64895193833179,-79.60505230715219,4.0
+243,5aabed888fb09e249951f426,Shunoko,Sushi Restaurant,4bf58dd8d48988d1d2941735,1201 St Clair Ave W (at Dufferin St)Toronto ON M6E 1B5Canada,M6E 1B5,43.677539,-79.443972,2.0
+244,4e6149acb993678bb5dae95b,Thai Lime,Thai Restaurant,4bf58dd8d48988d149941735,1551 Dupont St. (Perth)Toronto ONCanada,,43.665354199829956,-79.45276964749328,2.0
+245,53e964bb498ef7e89c15c889,sushi gen,Sushi Restaurant,4bf58dd8d48988d1d2941735,Canada,,43.684633,-79.41146,2.0
+246,4b0dc067f964a5206b4f23e3,New Thai Restaurant,Thai Restaurant,4bf58dd8d48988d149941735,81 St. Clair Ave. East (St. Clair and Yonge)Toronto ONCanada,,43.68886917362422,-79.39116302160036,2.0
+247,4fff3dade4b03c9810038f96,Vanipha Asian Gourmet Catering,Thai Restaurant,4bf58dd8d48988d149941735,DupontToronto ONCanada,,43.669497,-79.439097,2.0
+248,4c213d8913c00f4764aa85de,Vanipha Lanna,Thai Restaurant,4bf58dd8d48988d149941735,863 St. Clair Ave. West (at Winona)Toronto ON M6C 1C4Canada,M6C 1C4,43.679249,-79.43208,2.0
+249,5bd4c1ed8ad62e002cf65d7e,Kinton Ramen Bloor,Japanese Restaurant,4bf58dd8d48988d111941735,51 Baldwin St.Toronto ON M5T 1L1Canada,M5T 1L1,43.67391537924366,-79.42263793971506,2.0
+250,5cc3b1b7c876c8002c5c3c2f,Kiyo,Japanese Restaurant,4bf58dd8d48988d111941735,1384 Bathurst StToronto ON M5R 3J1Canada,M5R 3J1,43.680568,-79.417469,2.0
+251,5c4287ef898bdc002c9062bc,Bento Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,160 Kendal AveToronto ON M5R 1M3Canada,M5R 1M3,43.67578705438055,-79.41087484359741,2.0
+252,5158794be4b064814cb56d98,SuperBuffet,Chinese Restaurant,4bf58dd8d48988d145941735,Canada,,43.685091,-79.397906,1.0
+253,57cb0857498e4a514e7cc2b3,Kuma Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,1245 Dupont StToronto ON M6H 2A6Canada,M6H 2A6,43.667299,-79.442839,2.0
+254,4bdb4acac79cc928ce0682e9,South Pacific,Chinese Restaurant,4bf58dd8d48988d145941735,1002 Dovercourt Road (Dovercourt Rd at Hallam St)Toronto ONCanada,,43.667497,-79.432022,1.0
+255,59582ed38e886a485c556261,Thai Mango,Thai Restaurant,4bf58dd8d48988d149941735,641 Dupont St (Christie)Toronto ON M6G 4B1Canada,M6G 4B1,43.671756,-79.4211,2.0
+256,4bb7f33898c7ef3beaa13002,Annex Grill and Bar,Asian Restaurant,4bf58dd8d48988d142941735,262 Dupont St (Spadina)Toronto ON M5RCanada,M5R,43.67491340106575,-79.40670910550232,2.0
+257,4afe0802f964a5203e2d22e3,Bua Thai,Thai Restaurant,4bf58dd8d48988d149941735,150 Avenue Rd. (at Davenport Rd.)Toronto ON M5R 2H8Canada,M5R 2H8,43.674808774790584,-79.39667636157816,2.0
+258,59b8fe72a0215b4266a62f8e,Saigonlotus,Japanese Restaurant,4bf58dd8d48988d111941735,6 st Andrew streetToronto ON M5T 1K6Canada,M5T 1K6,43.68128069011653,-79.38240051269531,2.0
+259,5ce9d459f2554e002cbd3941,Kibo Sushi House,Sushi Restaurant,4bf58dd8d48988d1d2941735,1415 Bloor Street West (Symington)Toronto ON M6P 4H6Canada,M6P 4H6,43.657216,-79.447712,2.0
+260,5668bfa4498eede0b632cf59,COO Café Bread or Rice,Japanese Restaurant,4bf58dd8d48988d111941735,1049 Bloor St WToronto ON M6H 1M4Canada,M6H 1M4,43.660555,-79.431919,2.0
+261,525b39ca498e5d8e8c489d58,Thai Room,Thai Restaurant,4bf58dd8d48988d149941735,810 Bloor St W (Ossington)Toronto ON M6G 1L9Canada,M6G 1L9,43.66263290519075,-79.42257743493886,2.0
+262,53bd9f52498e6187cb7c185a,Chinese Dumpling House 中华饺子楼,Chinese Restaurant,4bf58dd8d48988d145941735,623 Bloor St WToronto ON M6G 1K8Canada,M6G 1K8,43.66451790083401,-79.41412828715735,1.0
+263,4ad4c061f964a5208ff720e3,Real Thailand Restaurant,Thai Restaurant,4bf58dd8d48988d149941735,570 Bloor St. W (Honest Ed Alley)Toronto ON M6G 1K1Canada,M6G 1K1,43.66655676709821,-79.40465745192407,2.0
+264,4eb5f35ff9f40c39c59c6e41,Bibab Express Sushi N Rolls,Asian Restaurant,4bf58dd8d48988d142941735,890 Yonge StreetToronto ON M1C 5H1Canada,M1C 5H1,43.67341131771216,-79.38784164830074,2.0
+265,53af6343498e36e5285c6722,kobonobu,Japanese Restaurant,4bf58dd8d48988d111941735,Canada,,43.677203,-79.35888,2.0
+266,4c99374b292a6dcb5f72c476,Osaka Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,1620 Bloor St. W. (Btwn Dorval & Indian Rd.)Toronto ONCanada,,43.655728420016516,-79.45559104750811,2.0
+267,4adf9880f964a520f47b21e3,Mazz Sushi,Sushi Restaurant,4bf58dd8d48988d1d2941735,993 Bloor St W (Dovercourt)Toronto ON M6H 1M1‎Canada,M6H 1M1‎,43.66104944385259,-79.4298421488191,2.0
+268,4ada53e5f964a520592121e3,Buk Chang Dong Soon Tofu,Korean Restaurant,4bf58dd8d48988d113941735,691 Bloor St. W. (at Clinton St.)Toronto ON M6G 1L3Canada,M6G 1L3,43.663841985166,-79.41709282188468,1.0
+269,59f7bad335811b13a241e498,Gyubee,Japanese Restaurant,4bf58dd8d48988d111941735,355 Bloor St WToronto ON M5SCanada,M5S,43.66708824997601,-79.4005710246546,2.0
+270,57f03361498e6431043a9608,Sabai Sabai,Thai Restaurant,4bf58dd8d48988d149941735,81 Bloor St EToronto ON M4W 1A9Canada,M4W 1A9,43.670647205466466,-79.38485656424602,2.0
+271,4b50f565f964a5209b3a27e3,Nijo Japanese Restaurant,Japanese Restaurant,4bf58dd8d48988d111941735,345 Bloor St. E (at Huntley St.)Toronto ON M4W 3J6Canada,M4W 3J6,43.671848798792055,-79.37882430813714,2.0
+272,4eab4a2e77c8fadde2c4667a,The Fish Store & Sandwiches,Asian Restaurant,4bf58dd8d48988d142941735,"657 College St (Little Italy, Bickford Park)Toronto ON M6G 1B7Canada",M6G 1B7,43.67217480954615,-79.37689434011017,2.0
+273,4adcba0ef964a520232f21e3,Pho Nho,Vietnamese Restaurant,4bf58dd8d48988d14a941735,2060 Dundas Street W (Morrow Ave)Toronto ON M6R 1W9Canada,M6R 1W9,43.652054,-79.44766,2.0
+274,4c0003d7f61ea593c529eb13,Pho Linh,Vietnamese Restaurant,4bf58dd8d48988d14a941735,1156 College St. (at Sheridan Ave.)Toronto ON M6H 1B6Canada,M6H 1B6,43.65228962903497,-79.43406146756601,2.0
+275,598db9386bdee652633b694a,Skippa,Japanese Restaurant,4bf58dd8d48988d111941735,379 Harbord St.Toronto ON M6G 1H8Canada,M6G 1H8,43.65869770122747,-79.42278385162354,2.0
+276,5362c366498e602fbe1db395,Yasu,Japanese Restaurant,4bf58dd8d48988d111941735,81 Harbord St.Toronto ON M5S 1G4Canada,M5S 1G4,43.66283719650635,-79.40321739973975,2.0
+277,4b71ede3f964a520cd642de3,Kee's Fine Foods,Food Truck,4bf58dd8d48988d1cb941735,75 St. George St (at Harbord St)Toronto ON M5SCanada,M5S,43.66319065887404,-79.39808398885582,1.0
+278,4c792e4981bca093af5efc14,Crown Princess Fine Dining 伯爵名宴,Chinese Restaurant,4bf58dd8d48988d145941735,1033 Bay St. (at Irwin Ave.)Toronto ON M5S 3A5Canada,M5S 3A5,43.66645492941117,-79.38769789187712,3.0
+279,5966b520fc9e94307406dafe,Si Lom,Thai Restaurant,4bf58dd8d48988d149941735,Toronto ON M4Y 1C5Canada,M4Y 1C5,43.66501007731949,-79.38068288199048,2.0
+280,5982128c9cadd914466c8bb7,Uncle Mikey's,Korean Restaurant,4bf58dd8d48988d113941735,1597 Dundas St WestToronto ONCanada,,43.64981738841562,-79.43489134311676,2.0
+281,54557a55498ea36c77f66390,Sukho Thai,Thai Restaurant,4bf58dd8d48988d149941735,1442 Dundas Street West (at Gladstone Ave)Toronto ONCanada,,43.64964167678855,-79.43025432767807,2.0
+282,4b074bb1f964a52077fb22e3,New Sky Restaurant 小沙田食家,Chinese Restaurant,4bf58dd8d48988d145941735,353 Spadina Ave.Toronto ON M5T 2G3Canada,M5T 2G3,43.65533674412141,-79.39889716243826,1.0
+283,58e91d60e0adac258fcea481,GB Hand-Pulled Noodles,Asian Restaurant,4bf58dd8d48988d142941735,66 Edward Street (Bay Street)Toronto ON M5G 1C9Canada,M5G 1C9,43.65643422548463,-79.3837827356398,1.0
+284,50e8b903e4b04fa56858ecfe,Zakkushi ざっ串,Japanese Restaurant,4bf58dd8d48988d111941735,193 Carlton St. (at Ontario St.)Toronto ON M5A 2K7Canada,M5A 2K7,43.663618353768534,-79.37067046949925,2.0
+285,4b683ef1f964a520d66d2be3,Thai To Go,Thai Restaurant,4bf58dd8d48988d149941735,452 Gerrard Street East (btw River & Sumach)Toronto ONCanada,,43.663418,-79.36071,2.0
+286,5792a2e4cd10f4e248ad94e2,Guu Izakaya,Japanese Restaurant,4bf58dd8d48988d111941735,1314 Queen Street WestToronto ON M6K 1L4Canada,M6K 1L4,43.641845549029775,-79.43108645308222,2.0
+287,4adf9e24f964a5202b7c21e3,Cafe 668,Asian Restaurant,4bf58dd8d48988d142941735,885 Dundas WestToronto ONCanada,,43.6511022937768,-79.41165356427142,2.0
+288,5480b4ad498e73897b755aac,Mean Bao,Asian Restaurant,4bf58dd8d48988d142941735,167 Bathurst St. (Queen St. W.)Toronto ONCanada,,43.64683531264126,-79.40377448223981,2.0
+289,52a7ae41498eed3af4d0a3fa,Yueh Tung Chinese Restaurant,Chinese Restaurant,4bf58dd8d48988d145941735,126 Elizabeth St. (Dundas St.)Toronto ON M5G 1P5Canada,M5G 1P5,43.655281263429195,-79.3853365267765,1.0
+290,4ada57aff964a520972121e3,Sukhothai,Thai Restaurant,4bf58dd8d48988d149941735,274 Parliament St (btwn Coatsworth St. & Shuter St.)Toronto ON M5A 2Z6Canada,M5A 2Z6,43.658444465539525,-79.36568085121628,2.0
+291,4af0841ef964a520d7dc21e3,Thai Elephant Cafe,Thai Restaurant,4bf58dd8d48988d149941735,813 Queen St West (Niagara St)Toronto ON M6J 1G1Canada,M6J 1G1,43.6461451971556,-79.4091297083156,2.0
+292,4ba90db8f964a5203f073ae3,Sweet Lulu,Asian Restaurant,4bf58dd8d48988d142941735,350 Bay St (at Temperance St)Toronto ONCanada,,43.65055650489936,-79.38117543224395,2.0
+293,4b64d531f964a52090d32ae3,On The Rocks,Karaoke Bar,4bf58dd8d48988d120941735,169 Front Street East (at Sherbourne St)Toronto ONCanada,,43.65040844699981,-79.3683544809487,2.0
+294,59cd8a18e179105e08f003c6,Sukhothai,Thai Restaurant,4bf58dd8d48988d149941735,490 Front Street EastToronto ON M5A 1H7Canada,M5A 1H7,43.653700903664294,-79.3544465359079,2.0
+295,4ee03e9c722e103a0224aaab,Urban Thai,Asian Restaurant,4bf58dd8d48988d142941735,Toronto ONCanada,,43.638126373291016,-79.43673706054688,2.0
+296,4ceea443b80da093a59e2800,Kotta Japanese Restaurant,Japanese Restaurant,4bf58dd8d48988d111941735,1226 King St W (at Dufferin)Toronto ONCanada,,43.63874998596859,-79.42835029903067,2.0
+297,4aeb19d9f964a5205ebe21e3,Bamboo Buddha,Asian Restaurant,4bf58dd8d48988d142941735,752 King St W (Tecumseth St)Toronto ON M5V 1N3Canada,M5V 1N3,43.643435636313086,-79.40500936427628,1.0
+298,5a2c772450a6f0229d83d923,Akira Back,Japanese Restaurant,4bf58dd8d48988d111941735,80 Blue Jays WayToronto ON M5V 2G3Canada,M5V 2G3,43.645375789305994,-79.39206284397356,3.0
+299,50b7c53616485cd9efad60d5,Sukhothai,Thai Restaurant,4bf58dd8d48988d149941735,52 Wellington St. E. (at Church St)Toronto ON M5E 1C9Canada,M5E 1C9,43.64848710249909,-79.37454735245633,2.0
