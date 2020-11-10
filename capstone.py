@@ -117,8 +117,8 @@ class FoursquareSearch:
 
     version = '20201102'
     limit = 100
-    client_id = 'ONLLX4H3KJLEWUUWIHSVIZJMIC5AJLIMTN2I53GZ3EXSNIX4' 
-    client_secret = '3W4PO0V4LTGPDTPL0OGDD153G0QYYT2DCWTWU2WXDXZDRQX0'
+    # client_id = '' 
+    # client_secret = ''
     
     #"Asian restaurant" category. 
     #Obtained from https://developer.foursquare.com/docs/build-with-foursquare/categories/
