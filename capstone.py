@@ -8,7 +8,7 @@ import requests
 import pickle
 
 
-class Toronto: 
+class TorontoMap: 
 
     circle_diameter = None
     latlon_list_for_circles = None  
@@ -116,7 +116,7 @@ class FoursquareSearch:
 
     version = '20201102'
     limit = 100
-    
+
     # client_id = '' 
     # client_secret = ''
     
