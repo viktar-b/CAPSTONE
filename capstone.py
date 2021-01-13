@@ -1,9 +1,12 @@
 import folium
 import pyproj
+
 import numpy as np
 import pandas as pd 
+
 import requests
 import pickle
+
 
 class Toronto: 
 
@@ -44,10 +47,6 @@ class Toronto:
             folium.Circle([lat, lon], radius= self.circle_diameter/2, color='blue', fill=False).add_to(toronto_map)
         return toronto_map
 
-    
-    def display_toronto_postcode(self):
-        pass
-
     def get_latlon_data(self):
         xy_filtered = self.get_xy_data()
         latlon_data = [self.xy_to_latlon(x,y) for x, y in xy_filtered]
@@ -66,7 +65,7 @@ class Toronto:
         lon, lat = proj(x, y, inverse=True)
         return lat, lon
     
-    #reassess this method
+    #TODO reconsider design for this method
     def get_xy_data(self):
         x_1, y_1 = self.lonlat_to_xy(*self.top_left)
         x_2, y_2 = self.lonlat_to_xy(*self.top_right)
@@ -117,11 +116,12 @@ class FoursquareSearch:
 
     version = '20201102'
     limit = 100
+    
     # client_id = '' 
     # client_secret = ''
     
-    #"Asian restaurant" category. 
-    #Obtained from https://developer.foursquare.com/docs/build-with-foursquare/categories/
+    # Asian restaurant category. 
+    # Obtained from https://developer.foursquare.com/docs/build-with-foursquare/categories/
     venue_category = '4bf58dd8d48988d142941735'
 
     def __init__(self, latlon_coordinates, circle_diameter):
